@@ -1,5 +1,8 @@
-[wordpress]
-172.17.177.40 ansible_user=vagrant ansible_ssh_private_key_file="/home/f4976259/Documentos/alura/ansible/.vagrant/machines/wordpress/virtualbox/private_key"
+# [wordpress]
+#  172.17.177.40 ansible_user=vagrant ansible_ssh_private_key_file="/home/f4976259/Documentos/alura/ansible/.vagrant/machines/wordpress/virtualbox/private_key"
+
+# [database]
+# 172.17.177.42 ansible_user=vagrant ansible_ssh_private_key_file="/home/f4976259/Documentos/alura/ansible/.vagrant/machines/mysql/virtualbox/private_key"
 
 [database]
-172.17.177.42 ansible_user=vagrant ansible_ssh_private_key_file="/home/f4976259/Documentos/alura/ansible/.vagrant/machines/mysql/virtualbox/private_key"
+20.169.228.7 ansible_user=testadmin  ansible_ssh_private_key_file="/home/f4976259/.ssh/terraform_note_velho"
